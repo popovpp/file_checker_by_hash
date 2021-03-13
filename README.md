@@ -9,7 +9,7 @@ python fcbh.py <path to the input file> <path to the directory containing the fi
 If arguments are absent, all files and script must be in an one current folder.
 If one argument is present, the input file and the files to check must be in anone folder with path is in the argument.
 Output will in the stdout likes this:
-file_01.bin OK
-file_02.bin FAIL
-file_03.bin NOT FOUND
-файл_04.txt OK.
+  file_01.bin OK
+  file_02.bin FAIL
+  file_03.bin NOT FOUND
+  файл_04.txt OK.
