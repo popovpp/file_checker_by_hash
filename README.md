@@ -7,7 +7,7 @@ file_03.bin md5 6dc2d05c8374293fe20bc4c22c236e2e<br>
 файл_04.txt sha1 da39a3ee5e6b4b0d3255bfef95601890afd80709.
 </p>
 <p>To run script you need do:<br>
-  python fcbh.py [<strong>path</strong> to the input file] [path to the directory containing the files to check].</p>
+  python fcbh.py [<strong style="font-size:16px">path</strong> to the input file] [path to the directory containing the files to check].</p>
 <p>Input files may be more then one: as much as you like.
 If arguments are absent, all files and script must be in an one current folder.
 If one argument is present, the input file and the files to check must be in an one folder with path is in the argument.</p>
