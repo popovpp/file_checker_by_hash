@@ -1,5 +1,5 @@
-This script checks files by known hash sums. 
-Information about files must be in a file has extention .check and likes this:
+<p>This script checks files by known hash sums. </p>
+<p>Information about files must be in a file has extention .check and likes this:</p>
 file_01.bin md5 aaeab83fcc93cd3ab003fa8bfd8d8906
 file_02.bin md5 6dc2d05c8374293fe20bc4c22c236e2e
 file_03.bin md5 6dc2d05c8374293fe20bc4c22c236e2e
