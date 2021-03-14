@@ -1,4 +1,4 @@
-<p>This script checks files by known hash sums. </p>
+<p>This script checks files by known hash sums (md5, sha1, sha256). </p>
 <p>Information about files must be in a file has extention .check and likes this:</p>
 <p>
   file_01.bin md5 aaeab83fcc93cd3ab003fa8bfd8d8906<br>
