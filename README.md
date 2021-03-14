@@ -1,9 +1,11 @@
 <p>This script checks files by known hash sums. </p>
 <p>Information about files must be in a file has extention .check and likes this:</p>
-file_01.bin md5 aaeab83fcc93cd3ab003fa8bfd8d8906
+<p>
+  <li>file_01.bin md5 aaeab83fcc93cd3ab003fa8bfd8d8906</li>
 file_02.bin md5 6dc2d05c8374293fe20bc4c22c236e2e
 file_03.bin md5 6dc2d05c8374293fe20bc4c22c236e2e
 файл_04.txt sha1 da39a3ee5e6b4b0d3255bfef95601890afd80709.
+</p>
 To run script you need do:
 python fcbh.py [path to the input file] [path to the directory containing the files to check].
 Input files may be more then one: as much as you like.
