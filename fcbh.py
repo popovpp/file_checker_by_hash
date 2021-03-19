@@ -25,7 +25,7 @@ if __name__=='__main__':
     filename_to_check_list = [f for f in os.listdir(path1) if f.endswith('.check')]
     if len(filename_to_check_list) > 0:
         for filename_to_check in filename_to_check_list:
-            with open(os.path.join(path1, filename_to_check), 'r') as f:
+            with open(os.path.join(path1, filename_to_check), 'r', encoding='cp1251') as f:
                 for s in f:
                     method = s.rsplit()[len(s.rsplit())-2].strip()
                     hash_sum = s.rsplit()[len(s.rsplit())-1].strip()
