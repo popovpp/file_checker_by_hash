@@ -4,7 +4,7 @@ import os
 
 
 def get_hash(hstr, method):
-
+    method.lower()
     hash_dict = {'md5':(hashlib.md5(hstr)).hexdigest(),
             'sha1':(hashlib.sha1(hstr)).hexdigest(),
             'sha256':(hashlib.sha256(hstr)).hexdigest()}
@@ -27,14 +27,17 @@ if __name__=='__main__':
         for filename_to_check in filename_to_check_list:
             with open(os.path.join(path1, filename_to_check), 'r') as f:
                 for s in f:
-                    filename = s.rsplit()[0]
-                    method = s.rsplit()[1]
-                    hash_sum = s.rsplit()[2]
+                    method = s.rsplit()[len(s.rsplit())-2].strip()
+                    hash_sum = s.rsplit()[len(s.rsplit())-1].strip()
+                    filename = s.replace(hash_sum, '').replace(method, '').strip()
+                    hash_sum = hash_sum.lower()
                     try:
                         with open(os.path.join(path2, filename), 'rb') as f1:
                             hstr = f1.read()
                             f1.close()
-                            h1h = get_hash(hstr, method)
+                            h1h = get_hash(hstr, method).strip().lower()
+                            print(hash_sum)
+                            print(h1h)
                             if h1h == hash_sum:
                                 print(filename, 'OK')
                             else:
