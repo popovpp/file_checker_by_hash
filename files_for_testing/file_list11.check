@@ -1,3 +1,3 @@
-Test1.txt md5 3eed3d4ec09ffdb0cffe6a1dbd71d1b3
-Test2.txt sha1 a14b73fcb811faf2b6f3ce681fb5f1a534593391
-тест3.txt sha256 2037c6ca79aa0ac465aac5e851a973c28cfcb1f0411f7a3e3502c17bdecb5ad0
+Test1.bin md5 3eed3d4ec09ffdb0cffe6a1dbd71d1b3
+Test2.bin sha1 a14b73fcb811faf2b6f3ce681fb5f1a534593391
+тест3.bin sha256 2037c6ca79aa0ac465aac5e851a973c28cfcb1f0411f7a3e3502c17bdecb5ad0
